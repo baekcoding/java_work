@@ -64,11 +64,11 @@ public class MyFrame extends JFrame implements ActionListener {
 		 */
 		
 		if(cmd.equals("send")) {
-			
+			JOptionPane.showConfirmDialog(this, "전송합니다.");
 		} else if (cmd.equals("delete")) {
-			
+			JOptionPane.showConfirmDialog(this, "삭제합니다.");
 		} else if (cmd.equals("update")) {
-			
+			JOptionPane.showConfirmDialog(this, "수정합니다.");
 		}
 	}
 }
