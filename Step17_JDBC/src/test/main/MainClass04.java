@@ -21,7 +21,7 @@ public class MainClass04 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+	
 		int num = 1;
 		String name = "정우성";
 		String addr = "압구정동";

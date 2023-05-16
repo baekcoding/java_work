@@ -12,8 +12,10 @@ public class MainClass02 {
 		Car car3 = null;
 		
 		car1.name="아반떼";
+		
 		String a=car1.name;
 		String b=car2.name;
+
 		
 		car1.drive();
 		car2.drive();

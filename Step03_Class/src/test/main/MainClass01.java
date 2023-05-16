@@ -10,14 +10,17 @@ public class MainClass01 {
 		Car car1 = new Car();
 		// Car 객체의 참조값에 . 찍어서 메소드 호출하기
 		car1.drive();
-		// Car 객체의 참조값에 . 찍어서 필드 참조하기(참조해서 값 대입하기)
-		car1.name="소나타";
 		car1.price=1000;
+		car1.name="소나타";
+		
+		// Car 객체의 참조값에 . 찍어서 필드 참조하기(참조해서 값 대입하기)
+		
 		
 		Car car2 = new Car();
-		car2.drive();
 		car2.name="그랜저";
 		car2.price=2000;
+		car2.drive();
+		
 		
 		boolean result = (car1 == car2); //false
 		boolean result2 = car1.name == car2.name; //false

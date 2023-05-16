@@ -32,7 +32,7 @@ public class Car {
 	 */
 	
 	public void drive() {
-		System.out.println(this.name+"가(이) 달려요!");
+		System.out.println(name+"가(이) 달려요!");
 
 	}
 	

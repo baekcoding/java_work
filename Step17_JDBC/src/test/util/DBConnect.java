@@ -8,7 +8,6 @@ public class DBConnect {
 	private Connection conn;
 	//생성자
 	public DBConnect() {
-		Connection conn=null;
 	      try {
 	         //오라클 드라이버 로딩
 	         Class.forName("oracle.jdbc.driver.OracleDriver");
